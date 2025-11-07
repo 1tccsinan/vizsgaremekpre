@@ -7,6 +7,9 @@ with open("data.txt", "r",encoding="utf-" ) as fin:
 print(adatok)
 
 #2. Adatok átlaga
+atlag = sum(adatok)/len(adatok)
+print(f"A beolvasott elemek átlaga: {atlag:.2f}")
+
 #3. Döntsük el, hogy volt-e 4es
 #4. Keressük meg, volt e 5ös
 #5. Hány darab kilences volt?
