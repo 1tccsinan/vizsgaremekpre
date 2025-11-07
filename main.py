@@ -11,6 +11,16 @@ atlag = sum(adatok)/len(adatok)
 print(f"A beolvasott elemek átlaga: {atlag:.2f}")
 
 #3. Döntsük el, hogy volt-e 4es
+van = False
+for szam in adatok:
+    if szam == 4:
+        van = True
+        break
+
+if van:
+    print("Van négyes")
+else:
+    print("Nincs négyes")
 #4. Keressük meg, volt e 5ös
 #5. Hány darab kilences volt?
 #6. Mennyi a legnagyonn beírt szám
