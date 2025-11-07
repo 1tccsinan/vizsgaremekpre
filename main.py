@@ -42,5 +42,11 @@ for szam in adatok:
 
 print(f" {db} darab kilences van")
 #6. Mennyi a legnagyobb beírt szám
+legnagyobb_szam = adatok[0]
+for szam in adatok:
+    if szam > legnagyobb_szam:
+        legnagyobb_szam = szam
+
+print(f"A legnagyobb szám {legnagyobb_szam}")
 #7. Hanyadik indexen van a legkisebb elem?
 #8. Páros számok kiírása paros.txt-be
