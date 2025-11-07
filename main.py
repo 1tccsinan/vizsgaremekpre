@@ -22,7 +22,25 @@ if van:
 else:
     print("Nincs négyes")
 #4. Keressük meg, volt e 5ös
+van5 = False
+for i in range(len(adatok)):
+    if adatok[i] == 5:
+        van5 = True
+        break
+
+if van5:
+    print(f" Van ötös, és a(z) {i}. elem.")
+else:
+    print("Nincs ötös.")
+
+
 #5. Hány darab kilences volt?
-#6. Mennyi a legnagyonn beírt szám
+db = 0
+for szam in adatok:
+    if szam == 9:
+        db += 1
+
+print(f" {db} darab kilences van")
+#6. Mennyi a legnagyobb beírt szám
 #7. Hanyadik indexen van a legkisebb elem?
 #8. Páros számok kiírása paros.txt-be
